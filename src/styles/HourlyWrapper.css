@@ -1,0 +1,17 @@
+.HourlyWrapper {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.HourCardWrapper {
+  padding-bottom: 16px;
+  padding-left: 8px;
+  overflow-x: scroll;
+
+  display: flex;
+}
+
+.HourCardWrapper::-webkit-scrollbar {
+  display: none;
+}

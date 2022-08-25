@@ -1,0 +1,6 @@
+.DetailCardWrapper {
+  margin-bottom: 16px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

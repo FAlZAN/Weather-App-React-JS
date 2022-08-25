@@ -1,0 +1,15 @@
+.AutoComplete {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px 16px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  /* border: 1px solid red; */
+}
+
+.AutoComplete > p:first-child {
+  font-size: 20px;
+}
+
+.AutoComplete > p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.6);
+}

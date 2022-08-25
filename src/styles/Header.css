@@ -1,0 +1,25 @@
+.Header {
+  padding: 8px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header > div:nth-child(1) > h3 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.Header > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.citiesIcon {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}

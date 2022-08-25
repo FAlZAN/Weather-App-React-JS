@@ -1,0 +1,18 @@
+:root {
+  /* font size */
+
+  /* font color */
+  --primary-font-color: rgba(255, 255, 255, 0.9);
+  --secondary-font-color: rgba(255, 255, 255, 0.5);
+}
+
+.card-wrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.card-wrapper > h3 {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  font-weight: 400;
+}

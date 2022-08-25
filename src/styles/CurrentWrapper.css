@@ -1,0 +1,62 @@
+.CurrentWrapper {
+  padding-top: 320px;
+  margin-bottom: 32px;
+}
+
+.CurrentWrapper > span:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CurrentWrapper > span:nth-child(1) > span {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 4px;
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.CurrentWrapper > span:nth-child(1) > span > img {
+  width: 32px;
+  height: auto;
+  padding: 0 4px 0 8px;
+}
+
+.CurrentWrapper > span:nth-child(1) > span > p {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0 8px 0 4px;
+  font-size: 16px;
+}
+
+.CurrentWrapper > span:nth-child(1) > p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 128px;
+  letter-spacing: -8px;
+  line-height: 120px;
+}
+
+.CurrentWrapper > p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0 4px;
+  font-size: 32px;
+}
+
+.CurrentWrapper > span {
+  display: flex;
+}
+
+.CurrentWrapper span p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 24px;
+}
+
+.CurrentWrapper span p img {
+  width: 18px;
+  height: auto;
+}
+
+.CurrentWrapper > span > p:nth-child(2) {
+  margin: 0 8px;
+}

@@ -1,0 +1,16 @@
+.HourCard {
+  margin-right: 24px;
+  text-align: center;
+}
+
+.HourCard > p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.HourCard:last-child {
+  margin-right: 8px;
+}
+
+.HourCard img {
+  margin: 2px 0;
+}

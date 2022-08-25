@@ -1,0 +1,18 @@
+.CityCard {
+  background: #acb6e5;
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
+  background: linear-gradient(to right, #86fde8, #acb6e5);
+  margin-bottom: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.CityCard > h3 {
+  padding-bottom: 16px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.CityCard > p {
+  font-size: 24px;
+}
